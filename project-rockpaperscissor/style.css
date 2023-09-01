@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: thistle;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10; */
+}
+.box{
+    /* border: 2px groove magenta; */
+    font-size: large;
+    font-weight: 800;
+    border: 7px groove magenta;
+    /* padding: 50px 100px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    height: 200px;
+    width: 450px;
+}
+button{
+    padding: 5px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    color: white;
+}
+#rock{
+    background-color: brown;
+}
+#paper{
+    background-color: blue;
+}
+#scissor{
+    background-color: green;
+}
+#rock:hover, #paper:hover , #scissor:hover{
+    background-color: black;
+}
